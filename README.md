@@ -1,10 +1,15 @@
-:warning: **Attention: this repository is no longer being maintained.  There will be no further work done on the patch, and no new binary releases will be created when future RPCEmu versions are released.  Anyone who wishes to do so is welcome to use the work in this repository to create their own patches and/or binary releases.** :warning:
+:warning: **Attention: this is experimental and not suited to general use. Consider it untested.** :warning:
 
-This is a development repository for **RPCEmu**, an Acorn RISC PC emulator for Windows, Mac and Linux.  It is intended for use in developing and testing patches before they are submitted to the mailing list for inclusion in the original source tree.
+This is an experimental development repository for **RPCEmu**, an Acorn RISC PC emulator for Windows, Mac and Linux.  It is intended for use in developing and testing patches before they are submitted to the mailing list for inclusion in the original source tree.
 
-The current version of RPCEmu, and the version upon which these patches are built, is 0.9.3.
+Forked from https://github.com/Septercius/rpcemu-dev in order to attempt to provide macOS builds going forward.
 
 The home page for RPCEmu can be found here: http://www.marutan.net/rpcemu/.
+
+The current version of RPCEmu is 0.9.5, the version upon which this repo is still 0.9.4.
+
+This repo builds with Qt v6.8.0 rather than older versions of Qt5 previously used with rpcemu. I don't yet know if this is a good idea.
+
 
 This repository contains the following patches:
 
