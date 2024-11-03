@@ -111,7 +111,7 @@ protected:
 	void keyPressEvent(QKeyEvent *event) Q_DECL_OVERRIDE;
 	void keyReleaseEvent(QKeyEvent *event) Q_DECL_OVERRIDE;
 #if defined(Q_OS_WIN32) || defined(Q_OS_MACOS)
-	bool nativeEvent(const QByteArray &eventType, void *message, long *result) Q_DECL_OVERRIDE;
+	bool nativeEvent(const QByteArray &eventType, void *message, qintptr *result) Q_DECL_OVERRIDE;
 #endif /* Q_OS_WIN32 */
 	
 private slots:
